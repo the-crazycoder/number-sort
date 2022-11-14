@@ -1,0 +1,26 @@
+{
+  "name": "number-sort",
+  "version": "1.0.0",
+  "description": "A open-source node script for sorting numbers (ascending order)",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index",
+    "dev": "nodemon src/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/the-crazycoder/number-sort.git"
+  },
+  "author": "Thomas Mead",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/the-crazycoder/number-sort/issues"
+  },
+  "homepage": "https://github.com/the-crazycoder/number-sort#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
